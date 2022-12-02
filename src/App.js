@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div>
       <Logo />
-      <button onClick={alert("Hello World")}>Test Button</button>
+      {/* <button onClick={alert("Hello World")}>Test Button</button> */}
       <BestPokemon />
       <CaugthPokemon />
     </div>
