@@ -3,6 +3,7 @@ const CaughtPokemon = () => {
 const pokemonNames = ["Eevee", "Butterfree", "Pikachu", "Ditto"];
 const random = Math.floor(Math.random() * pokemonNames.length);
  const [count, setCount] = useState(0);
+ // eslint-disable-next-line no-unused-vars
  const [num,setNum]=useState(0)
  const clickButton=()=>{
      setCount(count+1);
